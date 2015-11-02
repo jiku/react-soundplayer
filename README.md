@@ -248,7 +248,7 @@ class PlayPause extends React.Component {
     }
 
     render() {
-        let { playing } = this.props;
+        let { playing, track } = this.props;
         let text = playing ? 'Pause' : 'Play';
         
         if (!track) {
